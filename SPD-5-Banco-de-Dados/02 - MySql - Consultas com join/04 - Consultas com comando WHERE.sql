@@ -1,0 +1,1 @@
+SELECT * FROM videos_canais JOIN videos ON videos_canais.fk_video = videos.id_video JOIN canais ON videos_canais.fk_canal = canais.id_canal WHERE canais.id_canal = 2
